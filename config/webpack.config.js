@@ -39,7 +39,7 @@ function buildConfig(mode) {
 		context,
 		entry: docsEntry,
 		output: {
-			path: path.join(rootPath, "build/"),
+			path: path.join(rootPath, "../react-stockcharts-build/"),
 			filename: `dist/[name]${ifDocs(".[chunkhash]", "")}.js`,
 			publicPath: "",
 			library: "ReStock",
